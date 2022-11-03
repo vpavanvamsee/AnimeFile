@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Comfortaa:wght@300&family=Montserrat&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: content-box;
+    color: #ddf6ce;
+    font-family: 'Baloo 2', cursive;
+    /*color: #11151f;*/
+
+}
+
+footer{
+    background-color: #181818;
+}
+
+.bg-container{
+    background-color: #181818;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    z-index: 1000;
+    position: fixed;
+    background-color: #181818;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .logo{
+    color: #ddf6ce;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-left: 100px;
+}
+
+.navigation span{
+    color: #62a50a;
+}
+
+.nav-tabs{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+
+.nav-tabs li a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 5px;
+    transition: 0.25s;
+}
+
+.nav-tabs li a:hover{
+    color: #62a50a;
+}
+
+/*Top heading style*/
+
+.top-heading {
+    padding-top: 140px;
+    text-align: center;
+    color: #ddf6ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-heading video{
+    width: 720px;
+    opacity: 0.1;
+    border-radius: 20px;
+}
+
+.IndisplayText{
+    text-align: center;
+    position: absolute;
+}
+
+.IndisplayText h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4.5em;
+    font-weight: 300;
+}
+
+.IndisplayText span{
+    color: #62a50a;
+}
+
+.IndisplayText p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.IndisplayText .onlineBtn{
+    width: 60px;
+    background-color: #62a50a;
+    color: #ddf6ce;
+    text-decoration: none;
+    padding: 8px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.IndisplayText .onlineBtn:hover{
+    opacity: 0.9;
+}
+/*Popular movies container style*/
+
+.PopularMovies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.PopularMovies .MovieHead{
+    font-size: 2.5em;
+    padding: 5px;
+}
+
+.MovieBoxContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.MovieBox{
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MovieBox:hover{
+    opacity: 0.5;
+}
+
+.MovieBox .MovieThumbnail{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.MovieBox h1{
+    color: #62a50a;
+    padding: 0.2em 0;
+}
+
+.MovieBox p{
+    color: #1d201f;
+    padding-bottom: 1em;
+}
+
+.ContentBox{
+    background-color: #ddf6ce;
+    margin-top: 0;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.MovieBox .HomeArrow {
+    width: 60px;
+    padding: 30px;
+    border: 2px solid #62a50a;
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+
+.MovieBox .HomeArrow:hover{
+    background-color: #ddf6ce;
+    border: none;
+}
+
+/*About Page styling*/
+
+.About-bg-container{
+    max-width: 100%;
+    height: auto;
+    background-color: #181818;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
+.IndisplayText{
+    font-family: 'Baloo 2', cursive;
+}
+
+.IndisplayText .AbtHead{
+    font-size: 2.5em;
+    color: #62a50a;
+}
+
+.IndisplayText .AbtPara{
+  padding: 5px 500px;
+
+}
+
+/*social links styling part*/
+
+.f-list{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 165px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.f-list li{
+    list-style: none;
+}
+
+.f-list li a{
+    font-size: 2em;
+    display: inline-block;
+    margin-right: 15px;
+    transition: 0.25s;
+}
+
+.f-list li a ion-icon:hover{
+    color: #62a50a;
+}
+
+
+/*Footer Section styling*/
+
+.UniversalFooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.footer-navigations li a{
+    line-height: 1.5em;
+
+}
+
+.footer-navigations li a:hover{
+    color: #62a50a;
+}
+
+.FooterHead{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: underline 2px solid #62a50a;
+}
+
+.copyrightline{
+    padding: 50px;
+    text-align: center;
+}
+
+/*movies page styling*/
+.watch-online-bg-container{
+    height: auto;
+    background-color: #181818;
+    max-width: 100%;
+}
+
+.WatchOnlineBG{
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.ListRows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RowContent{
+    display: flex;
+    flex-direction: row;
+    color: #181818;
+    margin: 25px;
+    
+}
+
+.Timg{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.OW-title{
+    background-color: #f3f3f3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+    text-align: left;
+}
+
+.OW-title h1{
+    color: #62a50a;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.WatchOnlineBtn{
+    width: 100px;
+    background-color: #62a50a;
+    font-weight: 400;
+    color: #181818;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 2px solid #62a50a;
+    margin-left: 10px;
+}
+
+.WatchDownBtn{
+    width: 100px;
+    border: 2px solid #62a50a;
+    color: #181818;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 5px; 
+}
+
+.WatchDownBtn:hover{
+    background-color: #62a50a;
+    border: 2px solid #62a50a;
+    color: #181818; 
+}
+
+.rating{
+    margin-top: 25px;
+}
+
+.checked{
+    color: #62a50a;
+}
+
+.unchecked{
+    color: #181818;
+}
+
+.PAra{
+    color: #181818;
+    margin-left: 45px;
+}
+
+.PAra:hover{
+    color: #62a50a;
+}
+
+.MoviesPageBackGround{
+    background-color: #181818;
+}
+
+/*Video player page*/
+
+.watch-online-bg-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.WatchOnlineBG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DecBox{
+    width: 840px;
+    background-color: #1d201f;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.moviename{
+    text-align: left;
+    padding: 5px;
+    color: #62a50a;
+}
+
+.VideoDescription{
+    text-align: left;
+    padding: 5px;    
+}
+
+.VideoPlayer{
+    width: 840px;
+    border-radius: 10px;
+}
+
+.recommended-videos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 840px;
+    margin-top: 20px;
+}
+
+.headrecomend{
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+.pngimage{
+    margin-right: 10px;
+}
+
+.headrecomend{
+    position: relative;
+}
+
+.Rec-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Rec-box a{
+    margin-top: 4px;
+    color: #62a50a;
+}
+
+.Rec-box a:hover{
+    color: #ddf6ce;
+}
+
+.Rec-Image{
+    border-radius: 5px;
+    transform: 0.5s;
+
+}
+
+h3{
+    font-size: 16px;
+    padding: 5px;
+    color: #62a50a;
+}
+
+.LeaptImage{
+    width: 201px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image-gallery{
+    margin-top: 70px;
+    padding: 60px;
+    text-align: center;
+}
+
+
+/*description PAge Styling*/
+
+.PlayerBG{
+    text-align: center;
+    width: 840px;
+}
+
+.DesHeadPara{
+    padding: 30px 95px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.DecHead{
+    font-size: 28px;
+    margin: 5px 0 5px 0;
+    color: #62a50a;
+}
+
+.DesBtns{
+    margin-top: 30px;
+}
+
+.DesImage{
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.WatchOnlineBtn{
+    width: 100px;
+    background-color: #62a50a;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 2px solid #62a50a;
+    margin-left: 10px;
+}
+
+.DecWatchDownBtn{
+    width: 100px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 5px; 
+}
+
+.DecWatchDownBtn:hover{
+    background-color: #62a50a;
+    border: 2px solid #62a50a;
+    color: #ffffff; 
+}
+
+.playerrating{
+    margin: 5px 5px 10px 5px;
+    text-align: left;
+}
+
+.playerchecked{
+    color: yellow;
+}
+
+.playerunchecked{
+    color: #ddf6ce;
+}
+
+span{
+    color: #62a50a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
